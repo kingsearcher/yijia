@@ -1,0 +1,288 @@
+*{
+	/*font-family: "微软雅黑";*/
+}
+
+body
+{
+	background: url(../images/bg.jpg);
+}
+
+.container{}
+
+
+nav
+{
+	background: #fff;
+}
+
+nav a
+{
+	text-align: center;
+}
+
+#carousel-example-generic
+{
+	margin-top: -20px;
+}
+
+/*酒店概况*/
+#hotelInfo
+{
+	margin-top: 80px;
+}
+
+#hotelInfo h2,#hotelInfo p
+{
+	text-align: center;
+	line-height: 25px;
+}
+
+#hotelInfo p
+{
+	margin-top: 35px;
+}
+
+#hotelInfo i
+{
+	font-weight: normal !important;
+}
+
+/*艺术长廊*/
+#artWay
+{
+	margin-top: 80px;
+	background: url(../images/banner1.jpg) no-repeat;
+	background-size: cover;
+	padding-bottom: 200px;
+}
+
+#artWay h2,#artWay h1,#artWay i
+{
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+#artWay i
+{
+	font-size: 36px;
+	font-weight: 100;
+	margin: 30px auto 20px auto;
+}
+
+#artWay h2
+{
+	margin-top: 70px;
+}
+
+#artWay a
+{
+	margin: 40px auto 20px auto;
+	width: 150px;
+	background: none;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	display: block;
+	text-align: center;
+}
+
+#artWay a:after
+{
+	content: ">";
+	margin-left: 5px;
+}
+
+/*长廊图片*/
+
+#artWayIMG
+{
+	margin-top: -150px;
+}
+
+#artWayIMG img
+{
+	width: 100%;
+}
+
+#artWayIMG .col-lg-6,#artWayIMG .col-lg-12
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+
+
+/*客房展示*/
+#showIMG
+{
+	margin-top: 175px;
+	background: #000000;
+}
+
+/*商务会议*/
+
+#meeting
+{
+	margin-top: 60px;
+}
+
+#meeting h2,#meeting h4
+{
+	text-align: center;
+	color: #000;
+}
+
+#meeting h4
+{
+	color: #666;
+}
+
+#meeting p
+{
+	text-align: right;
+}
+
+#meeting img
+{
+	display: block;
+	margin: 0px auto;
+}
+
+
+/*酒店美食*/
+#hotelFood
+{
+	background: url(../images/32.jpg);
+}
+
+
+#hotelFood h2,#hotelFood h4
+{
+	text-align: center;
+}
+
+#hotelFood h2
+{
+	padding-top: 50px;
+}
+
+#hotelFood h4
+{
+	color: #666;
+}
+
+#hotelFood .col-lg-4>img
+{
+	width: 100%;
+}
+
+#hotelFood .col-lg-4>p
+{
+	text-align: center;
+	line-height: 30px;
+	padding:10px;
+	background: #fff;
+}
+
+#hotelFood .col-lg-offset-4
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#hotelFood .col-lg-offset-4 a
+{
+	background: rgba(255,255,255,.6);
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin:0px 20px;
+}
+
+/*旅途*/
+#hotelText{
+	margin-top: 170px;
+}
+
+#hotelText img
+{
+	display: block;
+	margin: 0px auto;
+}
+
+#hotelText p
+{
+	text-align: center;
+}
+
+#hotelText .line
+{
+	width: 40px;
+	height:3px;
+	background: #666;
+	margin: 35px auto 100px auto;
+}
+
+/*底部导航*/
+#footer
+{
+	background: #2c2c2c;
+	padding-top: 45px;
+	margin-top: 40px;
+}
+
+#footer ul
+{
+	list-style: none;
+}
+
+#footer ul li
+{
+	float: left;
+	margin-left: 6%;
+}
+
+#footer ul li a
+{
+	display: block;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+
+#footer ul li a:first-child
+{
+	color: #fff;
+}
+
+#footer ul li a:not(:first-child)
+{
+	color: #666;
+}
+
+#hotelLast{color: #fff;}
+
+#hotelLast p:nth-child(1)
+{
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+#hotelLast p:nth-child(2)
+{
+	font-size: 12px;
+}
+
+#hotelLast input
+{
+	background: none;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #666;
+	width: 50%;
+	height: 40px;
+	margin-top: 30px;
+}
